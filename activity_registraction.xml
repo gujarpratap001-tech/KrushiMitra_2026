@@ -1,0 +1,109 @@
+ha code layout chya aat tak
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Farmer Registration"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:textColor="#1B5E20"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/etMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Primary Mobile Number"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/etAltMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alternate Mobile Number (Optional)"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/etVillage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Village"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/etTaluka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Taluka"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/etDistrict"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="District"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/etState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="State"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/etLand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Land Area (Acres)"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAVE &amp; CONTINUE"
+            android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
